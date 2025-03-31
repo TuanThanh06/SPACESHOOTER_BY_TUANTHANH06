@@ -19,7 +19,7 @@ struct Ship {
 Ship createShip(int x, int y, int width, int height, SDL_Renderer* renderer);
 // Xử lý sự kiện chuột và thoát game
 void handleEvents(bool& running, Ship& ship, Bullet bullets[], int maxBullets, SDL_Renderer* renderer, Mix_Chunk* shootSound);
-// Hàm render phi thuyền (bao gồm trạng thái trái tim)
+// Hàm render phi thuyền
 void renderShip(SDL_Renderer* renderer, const Ship& ship, SDL_Texture* fullHeartTexture, SDL_Texture* halfHeartTexture);
 // Xử lý va chạm giữa đạn và phi thuyền
 void handleBulletShipCollision(Bullet bullets[], int maxBullets, Ship& ship);

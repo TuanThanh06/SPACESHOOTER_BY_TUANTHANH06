@@ -18,25 +18,13 @@ int showMenu(SDL_Renderer* renderer, Mix_Chunk* clickSound, Mix_Chunk* hoverSoun
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255); // Màu nền đen
     SDL_RenderClear(renderer);
     SDL_Texture* bgTexture = loadTexture("assets/background_menu.png", renderer);
-    if (!bgTexture) {
-        std::cerr << "khong the tai background menu!" << std::endl;
-        return -1; // Thoát nếu không tải được hình nền
-    }
     Mix_Music* backgroundMusic = Mix_LoadMUS("assets/menu_music.mp3");
-    if (!backgroundMusic) {
-        std::cerr << "khong the tai nhac nen: " << Mix_GetError() << std::endl;
-        return -1;
-    }
     TTF_Font* font = TTF_OpenFont("assets/font.ttf", 25);
-    if (!font) {
-        std::cerr << "khong the tai font: " << TTF_GetError() << std::endl;
-        return -1;
-    }
     SDL_Color normalColor = {255, 255, 255};
     SDL_Color hoverColor = {255, 255, 0};
     // Tạo texture cho các mục menu
     SDL_Texture* startGameText = renderTextWithColor("1. Start Game", font, normalColor, renderer);
-    SDL_Texture* instructionsText = renderTextWithColor("2. Instruction", font, normalColor, renderer);
+    SDL_Texture* instructionsText = renderTextWithColor("2. Instructions", font, normalColor, renderer);
     SDL_Texture* exitText = renderTextWithColor("3. Exit", font, normalColor, renderer);
     // Tạo texture cho high score
     SDL_Texture* highScoreText = renderTextWithColor(

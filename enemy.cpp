@@ -46,7 +46,6 @@ void updateEnemiesAndShoot(Bullet bullets[], int maxBullets, Enemy enemies[], in
             // Di chuyển kẻ địch
             enemies[i].realY += enemies[i].speed; // Cập nhật vị trí thực
             enemies[i].rect.y = static_cast<int>(enemies[i].realY); // Đồng bộ với SDL_Rect
-
             // Xác suất kẻ địch bắn đạn ngẫu nhiên (0.01% mỗi khung hình)
             if (rand() % 10000 < 1) {
                 enemyShoot(bullets, maxBullets, enemies[i], renderer); // Hàm bắn đạn

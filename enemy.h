@@ -12,10 +12,10 @@ struct Enemy {
 };
 void enemyShoot(Bullet bullets[], int maxBullets, const Enemy& enemy, SDL_Renderer* renderer);
 void initEnemies(Enemy enemies[], int maxEnemies);
-// Sinh một kẻ địch mới
+// Sinh một kẻ địch mới tại
 void spawnEnemy(Enemy enemies[], int maxEnemies, int x, int y, int width, int height, float speed, SDL_Renderer* renderer);
-// Cập nhật trạng thái của kẻ địch
+// Cập nhật trạng thái của kẻ địch: di chuyển xuống màn hình và bắn đạn theo xác suất.
 void updateEnemiesAndShoot(Bullet bullets[], int maxBullets, Enemy enemies[], int maxEnemies, SDL_Renderer* renderer, Mix_Chunk* shootSound,SDL_Texture* enemyBulletTexture);
-// Render
+// Render (vẽ) kẻ địch lên màn hình
 void renderEnemies(SDL_Renderer* renderer, Enemy enemies[], int maxEnemies);
 #endif // ENEMY_H_INCLUDED

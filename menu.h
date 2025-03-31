@@ -6,6 +6,6 @@
 #include <SDL_mixer.h>
 // Hiển thị menu chính và trả về tùy chọn người chơi
 int showMenu(SDL_Renderer* renderer, Mix_Chunk* clickSound, Mix_Chunk* hoverSound);
-// Hàm render text với màu sắc tùy chỉnh
+// Hàm render text với màu sắc
 SDL_Texture* renderTextWithColor(const std::string& text, TTF_Font* font, SDL_Color color, SDL_Renderer* renderer);
 #endif // MENU_H_INCLUDED

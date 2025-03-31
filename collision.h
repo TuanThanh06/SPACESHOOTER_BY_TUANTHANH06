@@ -7,8 +7,8 @@
 #include <SDL_mixer.h>
 // Cấu trúc lưu trữ hiệu ứng hạ
 struct Explosion {
-    SDL_Rect rect;          // Vị trí và kích thước hiệu ứng nổ
-    SDL_Texture* texture;   // Texture của hiệu ứng nổ
+    SDL_Rect rect;          // Vị trí và kích thước hiệu ứng hạ
+    SDL_Texture* texture;   // Texture của hiệu ứng hạ
     int currentFrame;       // Khung hình hiện tại
     int totalFrames;        // Tổng số khung hình trong sprite sheet
     int frameDelay;         // Thời gian giữa các khung hình

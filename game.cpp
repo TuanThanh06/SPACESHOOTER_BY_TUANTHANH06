@@ -114,7 +114,6 @@ void showGameOver(SDL_Renderer* renderer, Score& score) {
             TTF_CloseFont(font);
         }
         SDL_RenderPresent(renderer); // Hiển thị mọi thứ lên màn hình
-
         // Kiểm tra sự kiện nhấn chuột
         while (SDL_PollEvent(&e)) {
             if (e.type == SDL_MOUSEBUTTONDOWN) {
@@ -129,7 +128,7 @@ void saveHighScore(const std::string& filename, int highScore) {
         file << highScore; // Ghi điểm cao nhất vào file
         file.close();
     } else {
-        std::cerr << "khong the mo file lưu high score!" << std::endl;
+        std::cout << "khong the mo file lưu high score!" << std::endl;
     }
 }
 int loadHighScore(const std::string& filename) {
@@ -139,7 +138,7 @@ int loadHighScore(const std::string& filename) {
         file >> highScore; // Đọc điểm cao nhất từ file
         file.close();
     } else {
-        std::cerr << "khong the mo file load high score! Sử dụng mặc định là 0." << std::endl;
+        std::cout << "khong the mo file load high score! Sử dụng mặc định là 0." << std::endl;
     }
     return highScore;
 }

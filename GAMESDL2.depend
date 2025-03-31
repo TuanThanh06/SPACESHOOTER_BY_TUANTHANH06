@@ -287,3 +287,95 @@
 	"texture.h"
 	<iostream>
 
+1743358209 source:d:\sdl2game\spaceshooter\bullet.cpp
+	"bullet.h"
+	<cmath>
+	"texture.h"
+	<iostream>
+
+1743109792 d:\sdl2game\spaceshooter\bullet.h
+	<SDL.h>
+
+1743109799 d:\sdl2game\spaceshooter\texture.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1743398147 source:d:\sdl2game\spaceshooter\collision.cpp
+	"collision.h"
+	<iostream>
+	<SDL_mixer.h>
+
+1743359788 d:\sdl2game\spaceshooter\collision.h
+	"SDL.h"
+	"bullet.h"
+	"enemy.h"
+	"game.h"
+	<SDL_mixer.h>
+
+1743359794 d:\sdl2game\spaceshooter\enemy.h
+	<SDL.h>
+	"bullet.h"
+	<SDL_mixer.h>
+
+1743359788 d:\sdl2game\spaceshooter\game.h
+	<SDL.h>
+	<iostream>
+	"bullet.h"
+	<SDL_ttf.h>
+	<string>
+	<SDL_mixer.h>
+	<fstream>
+
+1743358547 source:d:\sdl2game\spaceshooter\enemy.cpp
+	"enemy.h"
+	"bullet.h"
+	"texture.h"
+	<iostream>
+	<SDL_mixer.h>
+
+1743398200 source:d:\sdl2game\spaceshooter\game.cpp
+	"game.h"
+	<iostream>
+	"texture.h"
+	<SDL_ttf.h>
+
+1743398110 source:d:\sdl2game\spaceshooter\main.cpp
+	"SDLUtils.h"
+	"game.h"
+	<iostream>
+	"enemy.h"
+	"texture.h"
+	"collision.h"
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"menu.h"
+
+1743354722 d:\sdl2game\spaceshooter\sdlutils.h
+	<SDL.h>
+	<iostream>
+	<string>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1743106366 d:\sdl2game\spaceshooter\menu.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+	<SDL_mixer.h>
+
+1743359788 source:d:\sdl2game\spaceshooter\sdlutils.cpp
+	"SDLUtils.h"
+	<SDL_image.h>
+
+1743357390 source:d:\sdl2game\spaceshooter\texture.cpp
+	"texture.h"
+	<iostream>
+
+1743398174 source:d:\sdl2game\spaceshooter\menu.cpp
+	"menu.h"
+	<iostream>
+	<string>
+	"texture.h"
+	"game.h"
+
