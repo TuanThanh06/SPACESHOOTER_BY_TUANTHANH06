@@ -1,0 +1,289 @@
+# depslib dependency file v1.0
+1741930644 source:c:\users\admin\desktop\new folder\gamesdl2\sdl_utils.cpp
+	"SDL_utils.h"
+
+1741930644 c:\users\admin\desktop\new folder\gamesdl2\sdl_utils.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<iostream>
+	<string>
+
+1743111320 source:c:\users\admin\desktop\new folder\gamesdl2\main.cpp
+	"SDLUtils.h"
+	"game.h"
+	<iostream>
+	"enemy.h"
+	"texture.h"
+	"collision.h"
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"menu.h"
+
+1743106366 c:\users\admin\desktop\new folder\gamesdl2\menu.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+	<SDL_mixer.h>
+
+1743109800 source:c:\users\admin\desktop\new folder\gamesdl2\menu.cpp
+	"menu.h"
+	<iostream>
+	<string>
+	"texture.h"
+	"game.h"
+
+1743109792 c:\users\admin\desktop\new folder\gamesdl2\bullet.h
+	<SDL.h>
+
+1742838166 c:\users\admin\desktop\new folder\gamesdl2\ship.h
+
+1742838166 source:c:\users\admin\desktop\new folder\gamesdl2\ship.cpp
+
+1743109793 source:c:\users\admin\desktop\new folder\gamesdl2\bullet.cpp
+	"bullet.h"
+	<cmath>
+	"texture.h"
+	<iostream>
+
+1743109794 source:c:\users\admin\desktop\new folder\gamesdl2\game.cpp
+	"game.h"
+	<iostream>
+	"texture.h"
+	<SDL_ttf.h>
+
+1743109799 c:\users\admin\desktop\new folder\gamesdl2\sdlutils.h
+	<SDL.h>
+	<iostream>
+	<string>
+	<SDL_mixer.h>
+
+1743148852 source:c:\users\admin\desktop\new folder\gamesdl2\sdlutils.cpp
+	"SDLUtils.h"
+	<SDL_image.h>
+
+1743109794 c:\users\admin\desktop\new folder\gamesdl2\game.h
+	<SDL.h>
+	<iostream>
+	"bullet.h"
+	<SDL_ttf.h>
+	<string>
+	<SDL_mixer.h>
+	<fstream>
+
+1743109796 source:c:\users\admin\desktop\new folder\gamesdl2\enemy.cpp
+	"enemy.h"
+	"bullet.h"
+	"texture.h"
+	<iostream>
+	<SDL_mixer.h>
+
+1743109795 c:\users\admin\desktop\new folder\gamesdl2\enemy.h
+	<SDL.h>
+	"bullet.h"
+	<SDL_mixer.h>
+
+1743109799 c:\users\admin\desktop\new folder\gamesdl2\texture.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1743109796 source:c:\users\admin\desktop\new folder\gamesdl2\texture.cpp
+	"texture.h"
+	<iostream>
+
+1743109797 source:c:\users\admin\desktop\new folder\gamesdl2\collision.cpp
+	"collision.h"
+	<iostream>
+	<SDL_mixer.h>
+
+1743109797 c:\users\admin\desktop\new folder\gamesdl2\collision.h
+	"SDL.h"
+	"bullet.h"
+	"enemy.h"
+	"game.h"
+	<SDL_mixer.h>
+
+1743318136 source:d:\gamesdl2\bullet.cpp
+	"bullet.h"
+	<cmath>
+	"texture.h"
+	<iostream>
+
+1743109792 d:\gamesdl2\bullet.h
+	<SDL.h>
+
+1743109799 d:\gamesdl2\texture.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1743318178 source:d:\gamesdl2\collision.cpp
+	"collision.h"
+	<iostream>
+	<SDL_mixer.h>
+
+1743109797 d:\gamesdl2\collision.h
+	"SDL.h"
+	"bullet.h"
+	"enemy.h"
+	"game.h"
+	<SDL_mixer.h>
+
+1743109795 d:\gamesdl2\enemy.h
+	<SDL.h>
+	"bullet.h"
+	<SDL_mixer.h>
+
+1743109794 d:\gamesdl2\game.h
+	<SDL.h>
+	<iostream>
+	"bullet.h"
+	<SDL_ttf.h>
+	<string>
+	<SDL_mixer.h>
+	<fstream>
+
+1743318303 source:d:\gamesdl2\enemy.cpp
+	"enemy.h"
+	"bullet.h"
+	"texture.h"
+	<iostream>
+	<SDL_mixer.h>
+
+1743318241 source:d:\gamesdl2\game.cpp
+	"game.h"
+	<iostream>
+	"texture.h"
+	<SDL_ttf.h>
+
+1743318346 source:d:\gamesdl2\main.cpp
+	"SDLUtils.h"
+	"game.h"
+	<iostream>
+	"enemy.h"
+	"texture.h"
+	"collision.h"
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"menu.h"
+
+1743109799 d:\gamesdl2\sdlutils.h
+	<SDL.h>
+	<iostream>
+	<string>
+	<SDL_mixer.h>
+
+1743106366 d:\gamesdl2\menu.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+	<SDL_mixer.h>
+
+1743109800 source:d:\gamesdl2\menu.cpp
+	"menu.h"
+	<iostream>
+	<string>
+	"texture.h"
+	"game.h"
+
+1743318346 source:d:\gamesdl2\sdlutils.cpp
+	"SDLUtils.h"
+	<SDL_image.h>
+
+1743109796 source:d:\gamesdl2\texture.cpp
+	"texture.h"
+	<iostream>
+
+1743358209 source:d:\sdl2\ssgamesdl2\bullet.cpp
+	"bullet.h"
+	<cmath>
+	"texture.h"
+	<iostream>
+
+1743109792 d:\sdl2\ssgamesdl2\bullet.h
+	<SDL.h>
+
+1743109799 d:\sdl2\ssgamesdl2\texture.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+
+1743358370 source:d:\sdl2\ssgamesdl2\collision.cpp
+	"collision.h"
+	<iostream>
+	<SDL_mixer.h>
+
+1743359788 d:\sdl2\ssgamesdl2\collision.h
+	"SDL.h"
+	"bullet.h"
+	"enemy.h"
+	"game.h"
+	<SDL_mixer.h>
+
+1743359794 d:\sdl2\ssgamesdl2\enemy.h
+	<SDL.h>
+	"bullet.h"
+	<SDL_mixer.h>
+
+1743359788 d:\sdl2\ssgamesdl2\game.h
+	<SDL.h>
+	<iostream>
+	"bullet.h"
+	<SDL_ttf.h>
+	<string>
+	<SDL_mixer.h>
+	<fstream>
+
+1743358547 source:d:\sdl2\ssgamesdl2\enemy.cpp
+	"enemy.h"
+	"bullet.h"
+	"texture.h"
+	<iostream>
+	<SDL_mixer.h>
+
+1743358662 source:d:\sdl2\ssgamesdl2\game.cpp
+	"game.h"
+	<iostream>
+	"texture.h"
+	<SDL_ttf.h>
+
+1743357499 source:d:\sdl2\ssgamesdl2\main.cpp
+	"SDLUtils.h"
+	"game.h"
+	<iostream>
+	"enemy.h"
+	"texture.h"
+	"collision.h"
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+	"menu.h"
+
+1743354722 d:\sdl2\ssgamesdl2\sdlutils.h
+	<SDL.h>
+	<iostream>
+	<string>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1743106366 d:\sdl2\ssgamesdl2\menu.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+	<SDL_mixer.h>
+
+1743109800 source:d:\sdl2\ssgamesdl2\menu.cpp
+	"menu.h"
+	<iostream>
+	<string>
+	"texture.h"
+	"game.h"
+
+1743359788 source:d:\sdl2\ssgamesdl2\sdlutils.cpp
+	"SDLUtils.h"
+	<SDL_image.h>
+
+1743357390 source:d:\sdl2\ssgamesdl2\texture.cpp
+	"texture.h"
+	<iostream>
+
