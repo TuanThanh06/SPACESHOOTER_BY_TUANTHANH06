@@ -78,12 +78,6 @@ void renderScore(SDL_Renderer* renderer, const Score& score) {
         SDL_DestroyTexture(textTexture);
     }
 }
-void cleanScore(Score& score) {
-    if (score.font) {
-        TTF_CloseFont(score.font);
-        score.font = nullptr;
-    }
-}
 void showGameOver(SDL_Renderer* renderer, Score& score) {
     bool waiting = true;
     SDL_Event e;

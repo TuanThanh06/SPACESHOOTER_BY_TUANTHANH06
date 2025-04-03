@@ -21,7 +21,6 @@ int main(int argc, char* argv[]) {
     Mix_Chunk* hoverSound = Mix_LoadWAV("assets/hover.wav");
     Mix_Music* backgroundMusic = Mix_LoadMUS("assets/background_music.mp3");
     int highScore = loadHighScore("highscore.txt");
-    Score score = createScore("assets/font.ttf", 20);
     SDL_Texture* backgroundTexture = loadTexture("assets/background.png", renderer);
     SDL_Texture* enemyBulletTexture = loadTexture("assets/enemy_bullet.png", renderer);
     SDL_Texture* fullHeartTexture = loadTexture("assets/full_heart.png", renderer);
@@ -32,11 +31,6 @@ int main(int argc, char* argv[]) {
     Mix_Chunk* explosionSound = loadSound("assets/explosion.wav");
     SDL_Texture* instructionsBg = loadTexture("assets/instructions_bg.png", renderer);
     // Tạo danh sách các đạn, kẻ địch và hiệu ứng nổ
-    Bullet bullets[MAX_BULLETS];
-    initBullets(bullets, MAX_BULLETS);
-    Enemy enemies[MAX_ENEMIES];
-    initEnemies(enemies, MAX_ENEMIES);
-    Explosion explosions[MAX_EXPLOSIONS] = {};
     bool isPlaying = true ;
     while (isPlaying) {
     int menuOption = showMenu(renderer,clickSound,hoverSound);
@@ -44,6 +38,12 @@ int main(int argc, char* argv[]) {
         std::cout << "Bat dau tro choi!" << std::endl;
         // Vòng lặp chính của game ở đây
         bool running = true;
+        Score score = createScore("assets/font.ttf", 20);
+        Bullet bullets[MAX_BULLETS];
+        initBullets(bullets, MAX_BULLETS);
+        Enemy enemies[MAX_ENEMIES];
+        initEnemies(enemies, MAX_ENEMIES);
+        Explosion explosions[MAX_EXPLOSIONS] = {};
         // Tạo phi thuyền
         Ship ship = createShip(800 / 2 - 25, 600 - 60, 50, 50, renderer);
         Mix_PlayMusic(backgroundMusic, -1);
@@ -127,9 +127,6 @@ int main(int argc, char* argv[]) {
         isPlaying = false ;
         }
     }
-    cleanBullets(bullets, MAX_BULLETS);
-    cleanExplosions(explosions, MAX_EXPLOSIONS);
-    cleanScore(score);
     SDL_DestroyTexture(backgroundTexture);
     SDL_DestroyTexture(enemyBulletTexture);
     SDL_DestroyTexture(fullHeartTexture);

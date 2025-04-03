@@ -34,8 +34,6 @@ Score createScore(const std::string& fontPath, int fontSize);
 void updateScore(Score& score, int increment);
 // Hiển thị điểm số trên màn hình
 void renderScore(SDL_Renderer* renderer, const Score& score);
-// Dọn dẹp tài nguyên liên quan đến điểm số
-void cleanScore(Score& score);
 // Hiển thị Game Over và điểm số
 void showGameOver(SDL_Renderer* renderer,Score& score);
 void saveHighScore(const std::string& filename, int highScore);
